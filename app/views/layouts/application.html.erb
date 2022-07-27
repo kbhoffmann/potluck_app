@@ -10,6 +10,11 @@
   </head>
 
   <body>
+    <header class = navbar>
+     <div class="topnav" id="siteWideNav">
+       <button class="btn btn-info"><%= button_to "Register", "/users/new", method: :get %></button>
+    </div>
+  </header>
     <%= yield %>
   </body>
 </html>
